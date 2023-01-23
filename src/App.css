@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.page-body {
+  overflow: hidden;
+  width: 100%;
+}
+
+.background {
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.page-content {
+  position: relative;
+}
+
+.page-title {
+  font-family: 'Imperial Script', cursive;
+  font-size: 128px;
+  font-weight: 400;
+  text-align: center;
+  top: 40px;
+}
