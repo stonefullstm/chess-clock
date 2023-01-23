@@ -12,8 +12,7 @@ function App() {
         <header>
           <p className='page-title'>Chess Clock</p>
         </header>
-        <p>White</p>
-        <p>Black</p>
+
         </div>
     </div>
   );

@@ -20,6 +20,7 @@
 
 .page-content {
   position: relative;
+  border: 1px solid black;
 }
 
 .page-title {
@@ -27,5 +28,5 @@
   font-size: 128px;
   font-weight: 400;
   text-align: center;
-  top: 40px;
+  border: 1px solid black;
 }
