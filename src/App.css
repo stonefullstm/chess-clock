@@ -21,7 +21,7 @@
 }
 
 .page-content {
-  /* position: relative; */
+  position: relative;
   border: 1px solid black;
 }
 
