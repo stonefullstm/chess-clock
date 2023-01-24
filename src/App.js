@@ -1,4 +1,7 @@
 import './App.css';
+import Controls from './components/Controls';
+import Displays from './components/Displays';
+import Players from './components/Players';
 
 function App() {
   return (
@@ -8,12 +11,14 @@ function App() {
         src='chess-background.jpg'
         alt=""
       />
-      <div class="page-content">
+      {/* <div class="page-content"> */}
         <header>
           <p className='page-title'>Chess Clock</p>
         </header>
-
-        </div>
+        <Players />
+        <Displays />
+        <Controls />
+      {/* </div> */}
     </div>
   );
 }

@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 
 .App {
   text-align: center;
@@ -19,14 +21,62 @@
 }
 
 .page-content {
-  position: relative;
+  /* position: relative; */
   border: 1px solid black;
 }
 
 .page-title {
   font-family: 'Imperial Script', cursive;
+  top: 0;
   font-size: 128px;
   font-weight: 400;
   text-align: center;
   border: 1px solid black;
+  margin: 25px;
+}
+
+.players-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.player-name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.displays-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.player-display {
+  width: 30%;
+  height: auto;
+  border: 1px solid black;
+}
+
+.display {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 75px;
+  text-align: center;
+}
+
+.controls-content {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 30%;
+  border: 1px solid black;
+}
+
+.play-control {
+  width: 50px;
+  background: transparent;
 }
