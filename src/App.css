@@ -22,7 +22,8 @@
 
 .page-content {
   position: relative;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  z-index: 1;
 }
 
 .page-title {
@@ -31,7 +32,7 @@
   font-size: 128px;
   font-weight: 400;
   text-align: center;
-  border: 1px solid black;
+  border: 5px solid black;
   margin: 25px;
 }
 
@@ -73,10 +74,25 @@
   flex-direction: row;
   justify-content: space-evenly;
   width: 30%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .play-control {
   width: 50px;
   background: transparent;
+}
+
+.game-time {
+  padding: 10px;
+  text-align: center;
+}
+
+.instruction {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.time-input {
+  font-weight: bold;
 }
