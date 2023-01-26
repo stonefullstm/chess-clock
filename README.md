@@ -1,5 +1,5 @@
 # Chess Clock
-Uma aplicação que implementa um relógio para jogar xadrez. Usa as stacks HTML, CSS, Javascript e React.
+Uma aplicação que implementa um relógio para jogar xadrez. Usa as stacks HTML, CSS, Javascript, React e Hooks.
 
 ## Status do projeto
 

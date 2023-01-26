@@ -17,7 +17,7 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .page-content {
@@ -56,10 +56,16 @@
   justify-content: space-evenly;
 }
 
-.player-display {
+.white-display {
   width: 30%;
   height: auto;
-  border: 1px solid black;
+  border: 5px solid white;
+}
+
+.black-display {
+  width: 30%;
+  height: auto;
+  border: 5px solid white;
 }
 
 .display {
@@ -80,6 +86,7 @@
 .play-control {
   width: 50px;
   background: transparent;
+  cursor: pointer;
 }
 
 .game-time {
